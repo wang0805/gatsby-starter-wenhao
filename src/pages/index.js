@@ -178,7 +178,6 @@ class HomeIndex extends React.Component {
             </p>
             <div className="row">
               <div className="8u 12u$(small)">
-                <form method="post" action="#">
                   <form
                     action="https://formspree.io/wh_wang@live.com"
                     method="POST"
