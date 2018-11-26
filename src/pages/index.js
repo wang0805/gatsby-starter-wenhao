@@ -149,10 +149,10 @@ class HomeIndex extends React.Component {
               </h2>
             </header>
             <p>
-              Everything we do revolves around technology in these modern times
-              hence it has always been in my interest to work towards the tech
-              sector. Click below to follow through my journey to be an aspiring
-              developer.
+              Interest in becoming a full stack developer. Everything we do
+              revolves around technology in these modern times hence it has
+              always been in my interest to work towards the tech sector. Click
+              below to follow through my journey to be an aspiring developer.
             </p>
             <ul className="actions">
               <li>
@@ -201,9 +201,8 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              Accumsan pellentesque commodo blandit enim arcu non at amet id
-              arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi
-              lorem vulputate lorem neque lorem ipsum dolor.
+              If you have enquiries for me, please contact me at the follow
+              contact information
             </p>
             <div className="row">
               <div className="8u 12u$(small)">

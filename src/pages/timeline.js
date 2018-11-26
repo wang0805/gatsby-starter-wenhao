@@ -58,7 +58,7 @@ export default () => (
       </Event>
       <Event
         interval={'2012 – 2016'}
-        title={'Maritime Studies ( 2nd Upper Honours )'}
+        title={'BSc Maritime Studies'}
         subtitle={'Nanyang Technological University'}
       >
         <ul>
