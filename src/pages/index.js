@@ -18,6 +18,7 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
+import full07 from '../assets/images/fulls/07.gif'
 
 const DEFAULT_IMAGES = [
   {
@@ -178,10 +179,10 @@ class HomeIndex extends React.Component {
             </p>
             <div className="row">
               <div className="8u 12u$(small)">
-                  <form
-                    action="https://formspree.io/wh_wang@live.com"
-                    method="POST"
-                  />
+                <form
+                  action="https://formspree.io/wh_wang@live.com"
+                  method="POST"
+                >
                   <div className="row uniform 50%">
                     <div className="6u 12u$(xsmall)">
                       <input
