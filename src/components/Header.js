@@ -12,11 +12,10 @@ class Header extends React.Component {
             <img src={avatar} alt="" />
           </a>
           <h1>
-            <strong>Wang Wenhao</strong>, a super simple
+            <strong>Wang Wenhao </strong>
             <br />
-            responsive site template freebie
+            {/* <strong>Welcome to my Website</strong> */}
             <br />
-            crafted by <a href="http://html5up.net">HTML5 UP</a>.
           </h1>
         </div>
         <Footer />

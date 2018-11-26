@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
+import { Link } from 'gatsby'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -18,50 +19,68 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
-import full07 from '../assets/images/fulls/07.gif'
 
 const DEFAULT_IMAGES = [
   {
     id: '1',
     src: full01,
     thumbnail: thumb01,
-    caption: 'Photo 1',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Tetris',
+    description: 'Mini game featuring tetris and time keeping of score',
+    stack: 'Stack: Javscript, HTMl, CSS, Bootstrap',
+    github: 'https://github.com/wang0805/tetrisproject',
+    game: 'https://wang0805.github.io/tetrisproject/',
   },
   {
     id: '2',
     src: full02,
     thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Exchange',
+    description: 'Matching engine mimicking a real electronic trading platform',
+    stack: 'Stack: NodeJS, Express, PSQL, CSS / Bootstrap',
+    github: 'https://github.com/wang0805/fxchange',
+    game: 'https://enigmatic-basin-19796.herokuapp.com/',
   },
   {
     id: '3',
     src: full03,
     thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Restaurant reservation app',
+    description:
+      'Restaurant reservation app with pre-ordering features ( group )',
+    stack: 'Stack: Ruby on Rails',
+    github: 'https://github.com/wang0805/project3',
+    game: 'https://project3-acw.herokuapp.com/',
   },
   {
     id: '4',
     src: full04,
     thumbnail: thumb04,
-    caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Social Exchange',
+    description: 'P to P exchange of foreign currency ( USDSGD )',
+    stack: 'Stack: Express, ReactJS, NodeJS',
+    github: 'https://github.com/wang0805/project4',
+    game: 'https://sheltered-badlands-12857.herokuapp.com/',
   },
   {
     id: '5',
     src: full05,
     thumbnail: thumb05,
     caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    description: 'Insert new project',
+    stack: '',
+    gIthub: '#',
+    game: '#',
   },
   {
     id: '6',
     src: full06,
     thumbnail: thumb06,
     caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    description: 'Insert new project',
+    stack: '',
+    github: '#',
+    game: '#',
   },
 ]
 
@@ -125,24 +144,21 @@ class HomeIndex extends React.Component {
           <section id="one">
             <header className="major">
               <h2>
-                Ipsum lorem dolor aliquam ante commodo
+                Bio
                 <br />
-                magna sed accumsan arcu neque.
               </h2>
             </header>
             <p>
-              Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-              nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-              lobortis tortor primis integer massa adipiscing id nisi accumsan
-              pellentesque commodo blandit enim arcu non at amet id arcu magna.
-              Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-              vulputate lorem neque cubilia.
+              Everything we do revolves around technology in these modern times
+              hence it has always been in my interest to work towards the tech
+              sector. Click below to follow through my journey to be an aspiring
+              developer.
             </p>
             <ul className="actions">
               <li>
-                <a href="#" className="button">
-                  Learn More
-                </a>
+                <Link className="button" to="/timeline/">
+                  My Learning timeline
+                </Link>
               </li>
             </ul>
           </section>
@@ -152,11 +168,23 @@ class HomeIndex extends React.Component {
 
             <Gallery
               images={DEFAULT_IMAGES.map(
-                ({ id, src, thumbnail, caption, description }) => ({
+                ({
+                  id,
                   src,
                   thumbnail,
                   caption,
                   description,
+                  stack,
+                  github,
+                  game,
+                }) => ({
+                  src,
+                  thumbnail,
+                  caption,
+                  description,
+                  stack,
+                  github,
+                  game,
                 })
               )}
             />
@@ -212,6 +240,7 @@ class HomeIndex extends React.Component {
 
                   <ul className="actions">
                     <li>
+                      <br />
                       <input type="submit" value="Send Message" />
                     </li>
                   </ul>
@@ -220,26 +249,16 @@ class HomeIndex extends React.Component {
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
                   <li>
-                    <h3 className="icon fa-home">
-                      <span className="label">Address</span>
-                    </h3>
-                    1234 Somewhere Rd.
-                    <br />
-                    Nashville, TN 00000
-                    <br />
-                    United States
-                  </li>
-                  <li>
                     <h3 className="icon fa-mobile">
                       <span className="label">Phone</span>
                     </h3>
-                    000-000-0000
+                    +65 97531969
                   </li>
                   <li>
                     <h3 className="icon fa-envelope-o">
                       <span className="label">Email</span>
                     </h3>
-                    <a href="#">hello@untitled.tld</a>
+                    <a href="mailto:wh_wang@live.com">wh_wang@live.com</a>
                   </li>
                 </ul>
               </div>
