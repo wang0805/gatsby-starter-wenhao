@@ -13,10 +13,10 @@ import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
+import full01 from '../assets/images/fulls/01.gif'
+import full02 from '../assets/images/fulls/02.gif'
+import full03 from '../assets/images/fulls/03.gif'
+import full04 from '../assets/images/fulls/04.gif'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
@@ -62,26 +62,26 @@ const DEFAULT_IMAGES = [
     github: 'https://github.com/wang0805/project4',
     game: 'https://sheltered-badlands-12857.herokuapp.com/',
   },
-  {
-    id: '5',
-    src: full05,
-    thumbnail: thumb05,
-    caption: 'Photo 5',
-    description: 'Insert new project',
-    stack: '',
-    gIthub: '#',
-    game: '#',
-  },
-  {
-    id: '6',
-    src: full06,
-    thumbnail: thumb06,
-    caption: 'Photo 6',
-    description: 'Insert new project',
-    stack: '',
-    github: '#',
-    game: '#',
-  },
+  // {
+  //   id: '5',
+  //   src: full05,
+  //   thumbnail: thumb05,
+  //   caption: 'Photo 5',
+  //   description: 'Insert new project',
+  //   stack: '',
+  //   gIthub: '#',
+  //   game: '#',
+  // },
+  // {
+  //   id: '6',
+  //   src: full06,
+  //   thumbnail: thumb06,
+  //   caption: 'Photo 6',
+  //   description: 'Insert new project',
+  //   stack: '',
+  //   github: '#',
+  //   game: '#',
+  // },
 ]
 
 class HomeIndex extends React.Component {
@@ -130,7 +130,7 @@ class HomeIndex extends React.Component {
   }
 
   render() {
-    const siteTitle = 'Gatsby Starter - Strata'
+    const siteTitle = 'Wang Wenhao'
     const siteDescription = 'Site description'
 
     return (
@@ -189,13 +189,13 @@ class HomeIndex extends React.Component {
               )}
             />
 
-            <ul className="actions">
+            {/* <ul className="actions">
               <li>
                 <a href="#" className="button">
                   Full Portfolio
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </section>
 
           <section id="three">
@@ -207,9 +207,13 @@ class HomeIndex extends React.Component {
             <div className="row">
               <div className="8u 12u$(small)">
                 <form
-                  action="https://formspree.io/wh_wang@live.com"
-                  method="POST"
+                  name="contact"
+                  method="post"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
                 >
+                  <input type="hidden" name="bot-field" />
+
                   <div className="row uniform 50%">
                     <div className="6u 12u$(xsmall)">
                       <input
