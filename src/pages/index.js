@@ -201,7 +201,7 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              If you have enquiries for me, please contact me at the follow
+              If you have enquiries for me, please contact me at the following
               contact information
             </p>
             <div className="row">
