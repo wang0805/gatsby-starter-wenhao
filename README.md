@@ -10,7 +10,7 @@
 1. Tetris: [Gameplay](https://wang0805.github.io/tetrisproject/)
 2. Fxchange: [Gameplay](https://enigmatic-basin-19796.herokuapp.com/)
 3. Restaurant reservation app: [Gameplay](https://project3-acw.herokuapp.com/)
-4. Social Exchange: [Gameplay](https://sheltered-badlands-12857.herokuapp.com/)
+4. Fxchange Social: [Gameplay](https://sheltered-badlands-12857.herokuapp.com/)
 
 ## Installation
 
