@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import wenhao from '../assets/images/wenhao.png'
 import selfie from '../assets/images/self.jpg'
 
 class Header extends React.Component {
@@ -10,7 +10,7 @@ class Header extends React.Component {
       <header id="header">
         <div className="inner">
           <a href="#" className="image avatar">
-            <img src={selfie} alt="" />
+            <img src={wenhao} alt="" />
           </a>
           <h1>
             <strong>Wang Wenhao </strong>
