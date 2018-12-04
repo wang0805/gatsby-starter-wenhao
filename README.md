@@ -1,18 +1,28 @@
-# gatsby-starter-strata
+# Personal Website for Wenhao Wang
 
-**This is a starter for Gatsby.js V2.**
+## Contents
+* Timeline of my learning journey - what was I doing before getting hands on on web development
+* Showcase of my recent works, with a short gif demo modal
+* Please click Gameplay  to try out the web applications that i made or you can follow the links at the next section
 
-**The older V1 version of this starter can be found on the v1 branch**
+## Recent works
 
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
-
-## Preview
-
-http://gatsby-strata.surge.sh/
+1. Tetris: [Gameplay](https://wang0805.github.io/tetrisproject/)
+2. Fxchange: [Gameplay](https://enigmatic-basin-19796.herokuapp.com/)
+3. Restaurant reservation app: [Gameplay](https://project3-acw.herokuapp.com/)
+4. Fxchange Social: [Gameplay](https://sheltered-badlands-12857.herokuapp.com/)
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/ChangoMan/gatsby-starter-strata`
+```bash
+Run `gatsby develop` in the terminal to start development server
 
-Run `gatsby develop` in the terminal to start.
+git add . 
+
+git commit -m"your message"
+
+git push origin master
+```
+## Credits
+
+Credits to starterpack: https://github.com/ChangoMan/gatsby-starter-strata
