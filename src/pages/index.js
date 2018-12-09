@@ -66,10 +66,10 @@ const DEFAULT_IMAGES = [
     id: '5',
     src: full05,
     thumbnail: thumb05,
-    caption: 'Photo 5',
+    caption: 'Grocery List',
     description: 'Simple grocery list app with Auth0',
     stack: 'Stack: ReactJS, Material-UI, GraphQL',
-    gIthub: 'https://github.com/wang0805/GroceryList',
+    github: 'https://github.com/wang0805/GroceryList',
     game: '#',
   },
   // {
